@@ -1,0 +1,386 @@
+body{
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+    background-image: url(img/hexagono.png);
+    margin: 0;
+    padding: 0;
+}
+.bg-transparente{
+    background-color: rgba(255, 255, 255, 0.746);
+}
+header{
+    height: 160px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to top, #3cb4c4 25% ,gray, white 53%);
+}
+.menu{
+    padding-left: 0;
+    text-align: center;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 30px;
+}
+.menu li a{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.logo-header{
+    width: 20%;
+}
+.divBusca{
+    background-color: white;
+    display: flex;
+    border-radius:20px;
+    float: right;
+    height:37px;
+    width: 22%;
+    margin-top: 33px;
+    margin-right: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+.txtBusca{
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width: 70%;
+}
+.btnBusca{
+    border-radius: 20px;
+    cursor: pointer;
+    height: 100%;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+#texto-soul{
+    padding: 30px;
+    padding-bottom: 20px;
+    background-color: gainsboro;
+    margin-bottom: 30px;
+    border-radius: 60px;
+    text-align: center;
+}
+.p-estilizado{
+    color: #183f44;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+}
+#section-blocos{
+    background-color: white;
+    padding-bottom: 30px;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.5;
+    background-color: #3cb4c4;
+    color: white;
+    padding: 20px;
+}
+.teste{
+    width: 20%;
+    position: relative;
+}
+#h2{
+    left: 93px;
+}
+#h3{
+    left: 184px;
+}
+#h4{
+    top: 194px;
+    right: 345px;
+}
+#h5{
+    bottom: 82px;
+    left: 157px;
+}
+#h6{
+    bottom: 82px;
+    left: 249px;
+}
+section{
+    margin: 50px 0;
+
+}
+.sectionflex{
+    display: flex;
+    text-align: center;
+    border-radius: 60px;
+    background-color: gainsboro;
+}
+h1, h2, h3{
+    background-color: #f8c200;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+.div2{
+    padding: 30px;
+}
+.globaltnt{
+    padding: 10px;
+    width: 50%;
+}
+.globaltnt p{
+    height: 270px;
+}
+.div-soul{
+    width: 40%;
+}
+.equipe{
+    border-radius: 50%;
+    width: 100%;
+}
+.div-parceiros{
+    width: 60%;
+    padding: 30px;
+}
+.parceiro{
+    border-radius: 30%;
+    width: 70%;
+}
+.div3{
+    width: 33.3%;
+    background-color: #f8c200;
+    padding: 20px 0;
+}
+.div3 p{
+    padding: 20px;
+    margin: 0 10px;
+    height: 300px;
+}
+p a{
+    text-decoration: none;
+    color: #f8c200;
+}
+.banner{
+    width: 15%;
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+}
+footer{
+    border-top: 1px solid gray;
+    height: 150px;
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+}
+.logo-footer{
+    padding-top: 45px;
+    width: 100%;
+}
+.texto-footer{
+    padding-top: 65px;
+    padding-left: 110px;
+    width: 70%;
+}
+.redes{
+    width: 40%;
+    text-align: center;
+    padding-top: 55px;
+}
+.icone{
+    width: 10%;
+    padding: 0 10px;
+}
+/* Cursos */
+.div-fullstack{
+    width: 50%;
+}
+.div-conteudo{
+    width: 50%;
+    padding: 30px;
+}
+.div2-cursos{
+    text-align: center;
+}
+.info-cursos{
+    background-color: #3cb4c4;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+.info-cursos li {
+    padding: 20px 20px;
+}
+.img-programacao{
+    width: 100%;
+    border-radius: 50%;
+}
+.img-fullstack{
+    width: 100%;
+    border-radius: 30px;
+}
+#div-logica{
+    background-color: white;
+}
+#img-logica{
+    width: 90%;
+    margin-top: 85px;
+}
+#section-form{
+    padding: 30px;
+    background-color: gainsboro;
+    border-radius: 60px;
+    text-align: center;
+}
+form{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px 40px;
+    background-color: white;
+}
+label{
+    font-size: 20px;
+}
+form input{
+    width: 97%;
+    height: 40px;
+    margin: 10px;
+}
+select{
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+}
+/* Parceria */
+.div1 button{
+    background-color:  #f8c200 ;
+    font-size: xx-large;
+    font-family: "Italiana";
+    box-shadow: 2px 2px 1px black;
+    border-style: none;
+}
+#requisitos ul{
+    font-size: 20px; 
+    text-align: justify;
+    line-height: 1.5;
+}
+.div-avell{
+    width: 60%;
+    padding: 30px;
+}
+.div-avell img{ 
+    width: 100%;
+    margin-top: 10%;
+}
+#sectionflex_modelos{ 
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 60px;
+    background-color: gainsboro;
+    margin-top: 30px;
+    padding: 20px;
+}
+p img{
+    width: 90%;
+    margin:5% 5% 5% 5%;
+}
+
+p button{
+        margin:0px 0px 0px 30%;
+        background-color:#f8c200 ;
+        font-size: x-large;
+        font-family: "Italiana";
+        box-shadow: 2px 2px 1px black;
+        border-style: none;
+}
+#h1_modelos{ 
+    width: 100%;
+}
+/* Quem somos */
+.div-video{
+    width: 50%;
+}
+#iframe-video{
+    margin-top: 40px;
+}
+.div-conheca{
+    width: 50%;
+    padding: 20px;
+}
+#icone-uniao{
+    width: 30%;
+}
+.div3 .p-quemsomos{
+    height: 400px;
+}
+.historia{
+    padding: 30px;
+    padding-bottom: 30px;
+    border-radius: 60px;
+    background-color: gainsboro;
+    font-size: 20px;
+}
+.mini-banner{
+    position: absolute;
+    right: 223px;
+    top: 1700px;
+    width: 250px;
+}
+.box1 {width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 180px;
+    margin-right: 80px;
+    margin-top:50px;
+    margin-bottom: 50px;
+    background-color: rgb(122, 194, 216);
+}
+    
+.box2{
+    width: 300px;
+    border: 1px solid green;
+    margin-top:50px ;
+    float: left;
+    text-align: center; 
+    background-color: whitesmoke; 
+    margin-bottom: 50px;
+}
+#p-endereco{
+    height: 100px;
+}
+.div3 iframe{
+    margin: 20px;
+    height: 350px;
+}
+#link-msg{
+    width: 100%;
+}
+#imagem-carta{
+    width: 70%;
+}
+.button-enviar{
+    background-color:  #f8c200 ;
+    font-size: xx-large;
+    font-family: "Italiana";
+    box-shadow: 2px 2px 1px black;
+    border-style: none;
+}
+.button-enviar a{
+    text-decoration: none;
+    color: black;
+}
+    

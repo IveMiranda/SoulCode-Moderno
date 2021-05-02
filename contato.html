@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoulCode Academy</title>
+    <link rel="shortcut icon" href="img/favicon_soulcode1.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="bg-transparente">
+        <header>
+            <nav>
+                <ul class="menu">
+                    <li><a href="quem-somos.html">Quem Somos</a></li>
+                    <li><a href="cursos.html">Produtos e Serviços</a></li>
+                    <li>
+                        <a style="border-bottom: 0;" href="index.html"><img class="logo-header" src="img/soulcode.png" alt="Logo SoulCode Academy" /></a>
+                    </li>
+                    <li><a href="parceria.html">Parceria Notebooks</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="divBusca">         
+                <input class="txtBusca" type="text" placeholder="Buscar..."/>             
+                <img class="btnBusca" src="img/buscar2.png" alt="Buscar"/>             
+            </div>
+        </header>
+        <main>
+            <h1>Contato</h1>
+            <section id="section-blocos">
+                <div class="div1">
+                    <img src="img/social.jpg" alt="Computador com várias formas de entrar em contato" />
+                <div>
+            </section>
+            <section class="sectionflex">
+                <div class="div3">
+                    <h2>Encontre a gente pelo mapa!</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14625.020102904173!2d-46.6855549!3d-23.5951851!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5746406ee8f7%3A0xe95a4bbde33eec9a!2sR.%20Helena%2C%20235%20-%20CONJ%20111%20-%20Vila%20Ol%C3%ADmpia%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2004552-050!5e0!3m2!1spt-BR!2sbr!4v1617914058953!5m2!1spt-BR!2sbr" width="80%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="div3">
+                    <h2>Nosso endereço</h2>
+                    <img id="endereço" src="https://cdn.pixabay.com/photo/2016/01/10/22/23/location-1132648_960_720.png" width="100px" style="margin-bottom: 50px;" />
+                    <p id="p-endereco" class="p-estilizado">Rua Helena, 235 Conj 111, 11ª andar
+                        Vila Olímpia - São Paulo/SP - CEP: 04552-050
+                    </p>
+                </div>
+                <div class="div3">
+                    <h2>Para entrar em Contato</h2>
+                        <div class="div-parceiro">
+                        <p style="text-align: center; height: 100px; margin-bottom: 20px;"><strong>Alguma dúvida?</strong> <br/>Nos mande uma mensagem que entraremos em contato!</p>
+                        <a id="link-msg" href="#div-form-contato"><img id="imagem-carta" src="https://cdn.pixabay.com/photo/2016/01/10/22/52/letters-1132703_960_720.png" /></a>
+                </div>
+            </section>
+            <h2>Fale Conosco</h2>
+            <section class="sectionflex">
+                <div class="box1"><img src="https://cdn.pixabay.com/photo/2019/07/03/05/58/envelope-4313721__340.png" width="100%">
+                </div>
+                <div class="box2"> 
+                    <div>   
+                        <h4>Duvidas? mande uma mensagem!</h4>
+                        <label for="nome">Nome:</label>
+                        <input id="nome" class="input-text"  name="nome" required="required" type="text">
+                    </div>
+                    </br>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input id="email" class="input-text" name="email" required="required" type="email" required="required">
+                    </div> 
+                    </br>
+                    <div>
+                        <label for="telefone">Tel:</label>
+                        <input id="telefone" class="input-text" name="telefone" required="required" type="tel" maxlenght="10"
+                        pattern="^\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}$"
+                        placeholder="(XX)9XXXX-XXXXX">
+                    </div>
+                    </br>  
+                    <div>
+                        <label for="msg">Sua mensagem:</label></br>
+                        <textarea id="msg"></textarea >
+                    </div>
+                    </br>
+                    <div>
+                        <input id="confirmacao" type="checkbox" name="confirmacao" checked required />
+                        <label for="confirmacao">Confirmo que todos os dados são reais.</label><br/>
+                        <button id="enviar" class="button-enviar" style="margin-top: 20px; margin-bottom: 20px;">ENVIAR</button>       
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="divLogo">
+                <img class="logo-footer" src="img/soulcode.png" alt="Logo SoulCode Academy">
+            </div>
+            <div class="texto-footer">&copy;SoulCode Academy 2021. Todos os direitos reservados</div>
+            <div class="redes">
+                <a href="https://twitter.com/soulcodeacademy" target="_blank"><img class="icone" src="img/redes/cor-twitter.png" alt="Ícone Twitter"></a>
+                <a href="https://www.facebook.com/SoulCodeAcademy/" target="_blank"><img class="icone" src="img/redes/cor-facebook.png" alt="Ícone Facebook"></a>
+                <a href="https://www.instagram.com/soulcodeacademy/" target="_blank"><img class="icone" src="img/redes/cor-instagram.png" alt="Ícone Instagram"></a>
+                <a href="https://br.linkedin.com/company/soulcodebrasil" target="_blank"><img class="icone" src="img/redes/cor-linkedin.png" alt="Ícone LinkedIn"></a>
+                <a href="https://www.youtube.com/channel/UCi6cfCiO5WyzTU58s-6geag" target="_blank"><img class="icone" src="img/redes/cor-youtube.png" alt="Ícone Youtube"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
